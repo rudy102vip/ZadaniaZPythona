@@ -10,13 +10,8 @@ rokUrodzenia = int(input("Podaj swój rok urodzenia: "))
 imieNadawcy = input("Podaj imie nadawcy: ")
 aktualnyRok = int(2024)
 oliczenieAktualnegoRokuUrodzenia = aktualnyRok - rokUrodzenia
-spersonalizowanaWiadomość = "Niech Twoje urodziny będą jak najjaśniejsze gwiazdy na niebie – nie do przeoczenia i pełne magii. Sto lat!"
+spersonalizowanaWiadomosc = "Niech Twoje urodziny będą jak najjaśniejsze gwiazdy na niebie – nie do przeoczenia i pełne magii. Sto lat!"
 print()
 print(f"{imieOdbiorcy} wszystkiego najlepszego z okazji {oliczenieAktualnegoRokuUrodzenia} urodzin!!")
-print(spersonalizowanaWiadomość)
+print(spersonalizowanaWiadomosc)
 print("Życzy " + imieNadawcy)
-
-
-
-
-

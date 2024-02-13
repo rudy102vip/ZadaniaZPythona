@@ -12,6 +12,6 @@ aktualnyRok = int(2024)
 oliczenieAktualnegoRokuUrodzenia = aktualnyRok - rokUrodzenia
 spersonalizowanaWiadomosc = "Niech Twoje urodziny będą jak najjaśniejsze gwiazdy na niebie – nie do przeoczenia i pełne magii. Sto lat!"
 print()
-print(f"{imieOdbiorcy} wszystkiego najlepszego z okazji {oliczenieAktualnegoRokuUrodzenia} urodzin!!")
+print(f"{imieOdbiorcy.title()} wszystkiego najlepszego z okazji {oliczenieAktualnegoRokuUrodzenia} urodzin!!")
 print(spersonalizowanaWiadomosc)
-print("Życzy " + imieNadawcy)
+print("Życzy " + imieNadawcy.title())
